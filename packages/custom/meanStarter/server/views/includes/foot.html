@@ -1,5 +1,37 @@
-<script type="text/javascript" src="/bundle/app.js"></script>
 
-{% if (process.env.NODE_ENV == 'development') %}
-  <script type="text/javascript" src="{{'//' + req.hostname + ':35729/livereload.js'}}"></script>
-{% endif %}
+<footer id="contacts">
+  <div class="container">
+    <div class="row">
+      <div class="grid_3 right">
+        <a class="footer_email" href='#'>info@demolink.org</a>
+      </div>
+      <div class="grid_4">
+        <ul class="social-list">
+          <li>
+            <a class="fa fa-facebook" href="#"></a>
+          </li>
+          <li>
+            <a class="fa fa-google-plus" href="#"></a>
+          </li>
+          <li>
+            <a class="fa fa-rss" href="#"></a>
+          </li>
+          <li>
+            <a class="fa fa-pinterest" href="#"></a>
+          </li>
+          <li>
+            <a class="fa fa-linkedin" href="#"></a>
+          </li>
+        </ul>
+      </div>
+      <div class="grid_5">
+        <div class="copyright">
+          GetApp © <span id="copyright-year"></span>
+          <!-- {%FOOTER_LINK} -->
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script type="text/javascript" src="/bundle/app.js"></script>

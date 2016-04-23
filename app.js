@@ -1,8 +1,8 @@
 'use strict';
 
-import 'angular/angular-csp.css';
-import 'angular-ui-select/select.min.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'angular/angular-csp.css';
+// import 'angular-ui-select/select.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 
 import jQuery from 'jquery';
 import 'angular';
